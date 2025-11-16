@@ -61,3 +61,8 @@ img {
 .grow {
     transform: scale(1.5);
 }
+
+#resultPage {
+    text-align: center;
+    display: none;
+}
