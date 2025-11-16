@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按钮动画示例</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="image-box">
+        <img id="image" src="image1.jpg" alt="Image">
+    </div>
+    <div class="buttons">
+        <button id="acceptBtn" class="btn accept" onmouseover="hoverBtn('accept')" onmouseout="resetBtn('accept')">接受</button>
+        <button id="rejectBtn" class="btn reject" onmouseover="hoverBtn('reject')" onmouseout="resetBtn('reject')">拒绝</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

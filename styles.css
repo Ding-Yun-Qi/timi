@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.image-box {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.accept {
+    background-color: #ff77a1;
+}
+
+.reject {
+    background-color: #6b9af6;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.shrink {
+    transform: scale(0.5);
+}
+
+.grow {
+    transform: scale(1.5);
+}
